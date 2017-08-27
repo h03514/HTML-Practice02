@@ -1,0 +1,157 @@
+body {
+    background-color: #FFF6E8;
+    font-family: Microsoft JhengHei;
+}
+
+
+.color{
+	background-color: #FFFBF5;
+}
+
+h1 {
+    display: block;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* header */
+
+#header{
+	padding-bottom: 20px;
+}
+
+.logo-row {
+    position: relative;
+    height: 50px;
+}
+
+#logo {
+    position: absolute;
+    left: 47%;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* content */
+#content{
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: transparent;
+    color: #8B837E;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+}
+
+.nav a {
+    color: #8B837E;
+}
+
+.nav>li>a:hover,
+.nav>.active>a {
+    color: #F9BF4C;
+}
+
+.row1{
+	padding: 0 30px;
+}
+
+.row{
+	padding: 0 30px;
+
+}
+
+.img img{
+	width: 100%;
+	height: auto;
+}
+
+.icon {
+    position: absolute;
+    left: 75px;
+    bottom: 16px;
+    width: 0;
+    height: 0px;
+    border-style: solid;
+    border-width: 6px 4px 0 4px;
+    border-color: #f49f17 transparent transparent transparent;
+}
+
+.intro hr {
+    width: 40px;
+    color: black;
+    border-top: 1px solid black;
+}
+
+.info {
+    text-align: center;
+}
+
+.pic {
+    margin: 0 auto;
+}
+
+.pic img{
+	width: 100%;
+	height: auto;
+	margin: 100px 0px 20px 0px;
+}
+
+.introduction{
+	margin-bottom: 50px;
+}
+
+.bottom{
+	margin-bottom: 50px;
+}
+
+.position{
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+
+    width: 50px;
+    height: 50px;
+	margin-left: 50%;
+	margin-top: -3%;
+	border-radius: 25px;
+    background-color: #F29600;
+}
+
+.icon2 {
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent #f2f2f2 transparent;
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer-background {
+    background-color: #FFFAF3;
+}
+
+.cp {
+    line-height: 40px;
+    text-align: center;
+    font-size: 9px;
+}
